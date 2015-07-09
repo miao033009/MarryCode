@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LXN-8e-72c">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GHa-zH-S5g">
+            <objects>
+                <tabBarController id="LXN-8e-72c" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ycS-Xz-ndD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="qm7-h1-2Ju"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Sv-NR-Alx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-783" y="-37"/>
+        </scene>
+        <!--Flow-->
+        <scene sceneID="11">
+            <objects>
+                <navigationController id="3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Flow" id="rr5-6F-Jg6"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.2381027788" green="0.26522341370000002" blue="0.30430635810000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="blg-tM-57J" kind="relationship" relationship="rootViewController" id="uXn-uc-Z0Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="97" y="33"/>
+        </scene>
+        <!--Parallax-->
+        <scene sceneID="zwu-QC-pcy">
+            <objects>
+                <viewController id="blg-tM-57J" customClass="MasterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nDI-b6-UYn"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Pn-wt-pJO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p1R-WX-Mxa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="D1Q-eI-nNg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="AcT-48-fGa" style="IBUITableViewCellStyleDefault" id="JkV-HC-wXX">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JkV-HC-wXX" id="1dk-fY-KXH">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AcT-48-fGa">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="blg-tM-57J" id="8gl-ew-IgD"/>
+                                    <outlet property="delegate" destination="blg-tM-57J" id="bhP-pW-p6a"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ExT-qn-hM8" customClass="UIImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1n-vq-TTc">
+                                        <rect key="frame" x="270" y="21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOe-6t-Nhs">
+                                        <rect key="frame" x="8" y="17" width="30" height="30"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="insertCell:" destination="blg-tM-57J" eventType="touchUpInside" id="BTw-XL-PNY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="4PS-2f-E89"/>
+                                    <constraint firstItem="XOe-6t-Nhs" firstAttribute="leading" secondItem="ExT-qn-hM8" secondAttribute="leading" constant="8" id="NyX-Qu-Uor"/>
+                                    <constraint firstItem="p1n-vq-TTc" firstAttribute="trailing" secondItem="ExT-qn-hM8" secondAttribute="trailingMargin" id="dcC-Cx-sZC"/>
+                                    <constraint firstItem="XOe-6t-Nhs" firstAttribute="baseline" secondItem="p1n-vq-TTc" secondAttribute="firstBaseline" id="eGi-lJ-bat"/>
+                                    <constraint firstAttribute="trailing" secondItem="p1n-vq-TTc" secondAttribute="trailing" constant="8" id="eev-By-TXl"/>
+                                    <constraint firstAttribute="centerY" secondItem="XOe-6t-Nhs" secondAttribute="centerY" id="gJy-cf-YlA"/>
+                                    <constraint firstItem="XOe-6t-Nhs" firstAttribute="leading" secondItem="ExT-qn-hM8" secondAttribute="leadingMargin" id="mdX-vT-XRc"/>
+                                    <constraint firstAttribute="centerY" secondItem="p1n-vq-TTc" secondAttribute="centerY" id="wnF-Rn-GYq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D1Q-eI-nNg" firstAttribute="leading" secondItem="p1R-WX-Mxa" secondAttribute="leading" id="22C-0i-HJH"/>
+                            <constraint firstAttribute="trailing" secondItem="D1Q-eI-nNg" secondAttribute="trailing" id="9qY-Oo-3jw"/>
+                            <constraint firstItem="ExT-qn-hM8" firstAttribute="leading" secondItem="p1R-WX-Mxa" secondAttribute="leading" id="E5d-hS-FFN"/>
+                            <constraint firstItem="D1Q-eI-nNg" firstAttribute="bottom" secondItem="p1R-WX-Mxa" secondAttribute="bottomMargin" id="KWf-CE-4Kg"/>
+                            <constraint firstItem="D1Q-eI-nNg" firstAttribute="top" secondItem="p1R-WX-Mxa" secondAttribute="top" id="Qbt-Ne-nO6"/>
+                            <constraint firstItem="ExT-qn-hM8" firstAttribute="top" secondItem="p1R-WX-Mxa" secondAttribute="top" id="bu6-7K-dyx"/>
+                            <constraint firstAttribute="trailing" secondItem="ExT-qn-hM8" secondAttribute="trailing" id="rIU-F2-qoq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parallax" id="40g-Bh-57w"/>
+                    <connections>
+                        <outlet property="tableView" destination="D1Q-eI-nNg" id="CSu-bI-cXs"/>
+                        <outlet property="topLabel" destination="p1n-vq-TTc" id="YN9-TE-LtP"/>
+                        <outlet property="topView" destination="ExT-qn-hM8" id="eiX-m8-H9B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVs-Pa-mzC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="517" y="33"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

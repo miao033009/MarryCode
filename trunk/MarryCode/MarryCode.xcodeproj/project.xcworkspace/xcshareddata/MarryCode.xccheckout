@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79EB76A0-BDB6-4C59-9E90-756DD5CD81A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MarryCode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E454E070119F4F60DCF6E82E15910EB4098788F2</key>
+		<string>https://github.com/miao033009/MarryCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/MarryCode/MarryCode.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E454E070119F4F60DCF6E82E15910EB4098788F2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miao033009/MarryCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E454E070119F4F60DCF6E82E15910EB4098788F2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E454E070119F4F60DCF6E82E15910EB4098788F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MarryCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

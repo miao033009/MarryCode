@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68034BF71B4E663100C4B95A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034BF61B4E663100C4B95A /* main.m */; };
+		68034BFA1B4E663100C4B95A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034BF91B4E663100C4B95A /* AppDelegate.m */; };
+		68034C001B4E663100C4B95A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68034BFE1B4E663100C4B95A /* Main.storyboard */; };
+		68034C021B4E663100C4B95A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68034C011B4E663100C4B95A /* Images.xcassets */; };
+		68034C051B4E663100C4B95A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68034C031B4E663100C4B95A /* LaunchScreen.xib */; };
+		68034C111B4E663100C4B95A /* MarryCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034C101B4E663100C4B95A /* MarryCodeTests.m */; };
+		68034C1E1B4E690700C4B95A /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034C1D1B4E690700C4B95A /* UIScrollView+APParallaxHeader.m */; };
+		68034C251B4E6AD400C4B95A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034C241B4E6AD400C4B95A /* MasterViewController.m */; };
+		68034C2A1B4E6AFD00C4B95A /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68034C281B4E6AFD00C4B95A /* CardView.m */; };
+		68034C2B1B4E6AFD00C4B95A /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68034C291B4E6AFD00C4B95A /* CardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68034C0B1B4E663100C4B95A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68034BE91B4E663100C4B95A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68034BF01B4E663100C4B95A;
+			remoteInfo = MarryCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68034BF11B4E663100C4B95A /* MarryCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarryCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68034BF51B4E663100C4B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68034BF61B4E663100C4B95A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68034BF81B4E663100C4B95A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68034BF91B4E663100C4B95A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68034BFF1B4E663100C4B95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68034C011B4E663100C4B95A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68034C041B4E663100C4B95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68034C0A1B4E663100C4B95A /* MarryCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarryCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68034C0F1B4E663100C4B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68034C101B4E663100C4B95A /* MarryCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarryCodeTests.m; sourceTree = "<group>"; };
+		68034C1C1B4E690700C4B95A /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		68034C1D1B4E690700C4B95A /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		68034C231B4E6AD400C4B95A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		68034C241B4E6AD400C4B95A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		68034C271B4E6AFD00C4B95A /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		68034C281B4E6AFD00C4B95A /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		68034C291B4E6AFD00C4B95A /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68034BEE1B4E663100C4B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68034C071B4E663100C4B95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68034BE81B4E663100C4B95A = {
+			isa = PBXGroup;
+			children = (
+				68034BF31B4E663100C4B95A /* MarryCode */,
+				68034C0D1B4E663100C4B95A /* MarryCodeTests */,
+				68034BF21B4E663100C4B95A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68034BF21B4E663100C4B95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68034BF11B4E663100C4B95A /* MarryCode.app */,
+				68034C0A1B4E663100C4B95A /* MarryCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68034BF31B4E663100C4B95A /* MarryCode */ = {
+			isa = PBXGroup;
+			children = (
+				68034C261B4E6AFD00C4B95A /* VIew */,
+				68034C221B4E699D00C4B95A /* Controller */,
+				68034C1A1B4E68EA00C4B95A /* Third */,
+				68034BF81B4E663100C4B95A /* AppDelegate.h */,
+				68034BF91B4E663100C4B95A /* AppDelegate.m */,
+				68034BFE1B4E663100C4B95A /* Main.storyboard */,
+				68034C011B4E663100C4B95A /* Images.xcassets */,
+				68034C031B4E663100C4B95A /* LaunchScreen.xib */,
+				68034BF41B4E663100C4B95A /* Supporting Files */,
+			);
+			path = MarryCode;
+			sourceTree = "<group>";
+		};
+		68034BF41B4E663100C4B95A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68034BF51B4E663100C4B95A /* Info.plist */,
+				68034BF61B4E663100C4B95A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68034C0D1B4E663100C4B95A /* MarryCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68034C101B4E663100C4B95A /* MarryCodeTests.m */,
+				68034C0E1B4E663100C4B95A /* Supporting Files */,
+			);
+			path = MarryCodeTests;
+			sourceTree = "<group>";
+		};
+		68034C0E1B4E663100C4B95A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68034C0F1B4E663100C4B95A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68034C1A1B4E68EA00C4B95A /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				68034C1B1B4E690700C4B95A /* APParallaxHeader */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		68034C1B1B4E690700C4B95A /* APParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				68034C1C1B4E690700C4B95A /* UIScrollView+APParallaxHeader.h */,
+				68034C1D1B4E690700C4B95A /* UIScrollView+APParallaxHeader.m */,
+			);
+			path = APParallaxHeader;
+			sourceTree = "<group>";
+		};
+		68034C221B4E699D00C4B95A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68034C231B4E6AD400C4B95A /* MasterViewController.h */,
+				68034C241B4E6AD400C4B95A /* MasterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68034C261B4E6AFD00C4B95A /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				68034C271B4E6AFD00C4B95A /* CardView.h */,
+				68034C281B4E6AFD00C4B95A /* CardView.m */,
+				68034C291B4E6AFD00C4B95A /* CardView.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68034BF01B4E663100C4B95A /* MarryCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68034C141B4E663100C4B95A /* Build configuration list for PBXNativeTarget "MarryCode" */;
+			buildPhases = (
+				68034BED1B4E663100C4B95A /* Sources */,
+				68034BEE1B4E663100C4B95A /* Frameworks */,
+				68034BEF1B4E663100C4B95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarryCode;
+			productName = MarryCode;
+			productReference = 68034BF11B4E663100C4B95A /* MarryCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68034C091B4E663100C4B95A /* MarryCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68034C171B4E663100C4B95A /* Build configuration list for PBXNativeTarget "MarryCodeTests" */;
+			buildPhases = (
+				68034C061B4E663100C4B95A /* Sources */,
+				68034C071B4E663100C4B95A /* Frameworks */,
+				68034C081B4E663100C4B95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68034C0C1B4E663100C4B95A /* PBXTargetDependency */,
+			);
+			name = MarryCodeTests;
+			productName = MarryCodeTests;
+			productReference = 68034C0A1B4E663100C4B95A /* MarryCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68034BE91B4E663100C4B95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mn;
+				TargetAttributes = {
+					68034BF01B4E663100C4B95A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					68034C091B4E663100C4B95A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 68034BF01B4E663100C4B95A;
+					};
+				};
+			};
+			buildConfigurationList = 68034BEC1B4E663100C4B95A /* Build configuration list for PBXProject "MarryCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68034BE81B4E663100C4B95A;
+			productRefGroup = 68034BF21B4E663100C4B95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68034BF01B4E663100C4B95A /* MarryCode */,
+				68034C091B4E663100C4B95A /* MarryCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68034BEF1B4E663100C4B95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68034C001B4E663100C4B95A /* Main.storyboard in Resources */,
+				68034C051B4E663100C4B95A /* LaunchScreen.xib in Resources */,
+				68034C2B1B4E6AFD00C4B95A /* CardView.xib in Resources */,
+				68034C021B4E663100C4B95A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68034C081B4E663100C4B95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68034BED1B4E663100C4B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68034C251B4E6AD400C4B95A /* MasterViewController.m in Sources */,
+				68034C1E1B4E690700C4B95A /* UIScrollView+APParallaxHeader.m in Sources */,
+				68034C2A1B4E6AFD00C4B95A /* CardView.m in Sources */,
+				68034BFA1B4E663100C4B95A /* AppDelegate.m in Sources */,
+				68034BF71B4E663100C4B95A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68034C061B4E663100C4B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68034C111B4E663100C4B95A /* MarryCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68034C0C1B4E663100C4B95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68034BF01B4E663100C4B95A /* MarryCode */;
+			targetProxy = 68034C0B1B4E663100C4B95A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68034BFE1B4E663100C4B95A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68034BFF1B4E663100C4B95A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68034C031B4E663100C4B95A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68034C041B4E663100C4B95A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68034C121B4E663100C4B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68034C131B4E663100C4B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68034C151B4E663100C4B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarryCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68034C161B4E663100C4B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarryCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68034C181B4E663100C4B95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarryCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarryCode.app/MarryCode";
+			};
+			name = Debug;
+		};
+		68034C191B4E663100C4B95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarryCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarryCode.app/MarryCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68034BEC1B4E663100C4B95A /* Build configuration list for PBXProject "MarryCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68034C121B4E663100C4B95A /* Debug */,
+				68034C131B4E663100C4B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68034C141B4E663100C4B95A /* Build configuration list for PBXNativeTarget "MarryCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68034C151B4E663100C4B95A /* Debug */,
+				68034C161B4E663100C4B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68034C171B4E663100C4B95A /* Build configuration list for PBXNativeTarget "MarryCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68034C181B4E663100C4B95A /* Debug */,
+				68034C191B4E663100C4B95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68034BE91B4E663100C4B95A /* Project object */;
+}
